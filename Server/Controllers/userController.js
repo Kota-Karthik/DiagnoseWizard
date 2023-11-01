@@ -11,12 +11,7 @@ exports.getAllUsers = async (req, res) => {
         users,
       },
     });
-  } catch (err) {
-    console.log("unable to create user");
-    res.status(400).json({
-      status: "error",
-      message: err,
-    });
+  } 
   }
 };
 
